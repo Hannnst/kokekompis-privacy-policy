@@ -14,7 +14,7 @@ Kokekompis is a recipe extractor and cookbook app that turns recipe web pages in
 
 The full privacy policy is available at:
 
-**https://hanniko.github.io/kokekompis-privacy-policy/**
+**https://hannnst.github.io/kokekompis-privacy-policy/**
 
 ## Contact
 
