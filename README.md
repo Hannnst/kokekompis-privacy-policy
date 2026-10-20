@@ -16,10 +16,6 @@ The full privacy policy is available at:
 
 **https://hannnst.github.io/kokekompis-privacy-policy/**
 
-## Contact
-
-If you have questions about the privacy policy or the app, you can reach out via [GitHub Issues](https://github.com/hanniko/kokekompis-privacy-policy/issues) or email: hannnst@proton.me
-
 ---
 
 *Last updated: October 2026*
