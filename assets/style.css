@@ -54,7 +54,9 @@
   --icon-fg: var(--l-icon-fg);
 
   --radius: 8px;
-  --measure: 44rem;
+  /* The content column. Wide enough that the page does not leave a wide
+     empty band down each side on a desktop screen. */
+  --measure: 68rem;
 }
 
 /* Explicit dark choice always wins over the system preference. */
@@ -102,7 +104,7 @@ html {
 
 body {
   margin: 0 auto;
-  padding: 2.5rem 1.25rem 4rem;
+  padding: 2.5rem 0.75rem 4rem;
   max-width: var(--measure);
   background: var(--bg);
   color: var(--fg);
@@ -337,6 +339,12 @@ hr {
 }
 
 .toc li { break-inside: avoid; margin: 0.15rem 0; }
+
+/* The content column is wide on a desktop screen, so the table of contents
+   gets a third column instead of stretching two very sparse ones. */
+@media (min-width: 60rem) {
+  .toc ol { columns: 3; column-gap: 2.5rem; }
+}
 
 @media (max-width: 34rem) {
   .toc ol { columns: 1; }
